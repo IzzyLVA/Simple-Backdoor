@@ -4,11 +4,11 @@ This repository contains a simple Python-based bind shell designed for **educati
 
 To run the script, execute the following command:
 
-python3 bind_shell.py
+`python3 bind_shell.py`
 
 Once the script is running, a remote user can connect using:
 
-nc <target_ip> 18252
+`nc <target_ip> 18252`
 
 Ensure that port `18252` is open on the target system and that any firewalls are properly configured to allow incoming connections.
 
